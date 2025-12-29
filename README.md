@@ -1,53 +1,76 @@
-# 👨‍💻 Eren Mente | Kişisel Portfolyo Web Sitesi
+<h1 align="center">👨‍💻 Eren Mente - Kişisel Portfolyo</h1>
 
-[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Ferenmente.github.io&style=flat-square&label=Canlı%20Durum&logo=github)](https://erenmente.github.io)
-[![Vercel Status](https://img.shields.io/badge/Yayınlandı-erenmente.github.io-success?style=for-the-badge&logo=google-chrome)](https://erenmente.github.io)
+<p align="center">
+  <b>Fırat Üniversitesi Yazılım Mühendisliği öğrencisi olarak projelerimi, yeteneklerimi ve deneyimlerimi sergilediğim modern, responsive ve interaktif kişisel web sitem.</b>
+</p>
 
-> Fırat Üniversitesi Yazılım Mühendisliği öğrencisi olarak projelerimi, yeteneklerimi ve deneyimlerimi sergilediğim modern, responsive ve interaktif kişisel web sitem.
-
-<div align="center">
-  <a href="https://erenmente.github.io">
+<p align="center">
+  <a href="https://www.erenmente.com">
+    <img src="https://img.shields.io/website?down_color=red&down_message=offline&label=Durum&style=for-the-badge&up_color=success&up_message=online&url=https%3A%2F%2Ferenmente.com" alt="Website Status" />
   </a>
-  <br><br>
-  <a href="https://erenmente.github.io">
-    <button>🚀 <b>Canlı Demoyu Görüntüle</b></button>
+  <a href="https://vercel.com">
+    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
   </a>
-</div>
+  <a href="https://tailwindcss.com">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  </a>
+</p>
 
----
+<p align="center">
+  <a href="https://www.erenmente.com"><strong>➥ Canlı Siteyi Ziyaret Et: www.erenmente.com</strong> 🚀</a>
+</p>
+
+<br />
 
 ## 🚀 Proje Hakkında
 
-Bu repo, **[erenmente.com](https://www.erenmente.com)** adresinde yayınlanan kişisel web sitemin kaynak kodlarını içerir. Modern web teknolojileri kullanılarak geliştirilmiş ve global CDN üzerinden sunulmaktadır.
+Bu repo, **[erenmente.com](https://www.erenmente.com)** adresinde yayınlanan kişisel web sitemin kaynak kodlarını içerir. Modern web teknolojileri kullanılarak geliştirilmiş, tüm cihazlarla uyumlu ve global CDN üzerinden sunulmaktadır.
 
 ### 🌟 Öne Çıkan Özellikler
 
-* **🌐 Özel Domain:** `erenmente.com` üzerinden doğrudan erişim.
-* **⚡ Vercel Hosting:** CI/CD süreçleri ve hosting Vercel altyapısı ile yönetilmektedir.
-* **🔒 SSL/TLS:** Otomatik HTTPS sertifikası ile güvenli bağlantı.
-* **📱 Responsive Tasarım:** Tüm cihazlarda kusursuz görünüm.
+* **🌐 Özel Domain:** `erenmente.com` üzerinden doğrudan ve akılda kalıcı erişim.
+* **⚡ Vercel Hosting:** CI/CD süreçleri ve hosting işlemleri Vercel altyapısı ile yönetilmektedir.
+* **🔒 SSL/TLS Güvenliği:** Otomatik HTTPS sertifikası ile şifrelenmiş güvenli bağlantı.
+* **📱 Responsive Tasarım:** Mobil, tablet ve masaüstü cihazlarda kusursuz görünüm.
 
 ---
 
 ## 🛠️ Teknoloji Yığını (Tech Stack)
 
+Proje geliştirilirken kullanılan teknolojiler ve araçlar:
+
 | Kategori | Teknoloji | Kullanım Amacı |
 | :--- | :--- | :--- |
-| **Domain & DNS** | **erenmente.com** | Özel alan adı yönetimi |
-| **Hosting** | Vercel | Deployment ve Serverless Fonksiyonlar |
-| **Styling** | Tailwind CSS | Tasarım Sistemi |
+| **Frontend** | HTML5 / JavaScript | İskelet yapı ve etkileşimler |
+| **Styling** | Tailwind CSS | Hızlı ve modern stillendirme |
+| **Hosting** | Vercel | Yayına alma ve DNS yönetimi |
+| **Domain** | Google Domains | Alan adı yapılandırması |
 
 ---
 
-## 🚀 Kurulum ve Çalıştırma
+## 📂 Portfolyoda Sergilenen Projeler
 
-Bu proje statik bir yapıdadır, dolayısıyla karmaşık kurulum süreçleri gerektirmez.
+Web sitesi içerisinde detaylarına yer verilen ve GitHub bağlantıları bulunan ana projelerim:
 
-1.  **Projeyi Klonlayın:**
-    ```bash
-    git clone https://github.com/erenmente/erenmente-site.git
-    ```
+### 1. 🍽️ Digital Menu
+Restoranlar için geliştirilmiş, karekod tabanlı modern menü sistemi.
+* **Teknolojiler:** JavaScript, Bootstrap, LocalStorage
+* **Özellikler:** Dinamik sepet sistemi, kategori filtreleme, QR kod oluşturma.
 
+### 2. 🎓 Fırat Assistant
+Üniversite öğrencileri için yapay zeka destekli akademik asistan.
+* **Teknolojiler:** Python, Flask, Groq API (AI)
+* **Özellikler:** Yapay zeka tabanlı ders mentoru, %99 uptime, Failover sistemi.
+
+---
+
+## ⚙️ Kurulum ve Çalıştırma
+
+Bu proje statik bir yapıdadır, dolayısıyla karmaşık `npm install` süreçleri gerektirmez.
+
+1. **Projeyi Klonlayın:**
+   ```bash
+   git clone [https://github.com/erenmente/erenmente-site.git](https://github.com/erenmente/erenmente-site.git)
 2.  **Klasöre Gidin:**
     ```bash
     cd erenmente-site
