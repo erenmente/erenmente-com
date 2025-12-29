@@ -58,9 +58,31 @@
         .transform-style-preserve-3d { transform-style: preserve-3d; }
         .backface-hidden { backface-visibility: hidden; }
         .rotate-y-180 { transform: rotateY(180deg); }
+        
         /* Mobil menü animasyonu */
         #mobile-menu { transition: max-height 0.3s ease-in-out; max-height: 0; overflow: hidden; }
         #mobile-menu.active { max-height: 300px; }
+
+        /* --- MOBİL İÇİN KART DÜZELTMESİ (Eklenen Kısım) --- */
+        @media screen and (max-width: 768px) {
+            /* Proje kartlarını mobilde %100 genişliğe zorla */
+            .group.perspective-1000 {
+                width: 100% !important;
+                min-width: 100% !important;
+                margin-bottom: 20px;
+            }
+            /* Grid yapısının mobilde tek sütun olmasını garanti et */
+            .grid {
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center !important;
+            }
+            /* Grid içindeki diğer elemanları (örn: yetenekler) bozmamak için */
+            #skills .grid {
+                display: grid !important; /* Yetenekler kısmı grid kalsın */
+                grid-template-columns: repeat(2, 1fr) !important; /* Mobilde 2 sütun olsun */
+            }
+        }
     </style>
 </head>
 
@@ -170,7 +192,7 @@
                 Öne Çıkan Projeler
             </h2>
             
-            <div class="grid md:grid-cols-2 gap-8 justify-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
 
                 <div class="group perspective-1000 h-80 cursor-pointer rounded-xl relative w-full">
                     <div class="relative w-full h-full transition-transform duration-700 transform-style-preserve-3d group-hover:rotate-y-180 shadow-xl shadow-slate-200/50 rounded-xl">
